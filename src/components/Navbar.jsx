@@ -16,6 +16,9 @@ const Navbar = () => {
   const toBlogs=()=>{
     navigate("/Blogs")
   }
+  const toContact=()=>{
+    navigate("/Contact")
+  }
 
   return (
     <header className="sticky top-0 bg-green-400 text-black m-5 rounded-2xl max-w-full h-20 px-3">

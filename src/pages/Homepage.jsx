@@ -6,6 +6,7 @@ import Services from './Services'
 import Blogs from './Blogs'
 import Carousal from '../components/Carousal'
 import Navbar from '../components/Navbar'
+import Contact from './Contact'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <Hero />
         <Services/>
         <Blogs />
+        <Contact />
         <Footer />
     </div>
   )
