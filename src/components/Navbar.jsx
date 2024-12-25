@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="text-2xl font-bold flex">
           <img
             className="max-w-15 max-h-10"
-            src="src/assets/images/logo.png"
+            src="./src/assets/images/logo.png"
             alt="Logo"
           />
           <span className="mt-2 font-jost">Silo Fortune</span>

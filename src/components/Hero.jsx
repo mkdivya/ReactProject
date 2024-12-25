@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             {/* Image section */}
             <div class="lg:max-w-lg lg:w-full md:w-2/3 w-full ">
-              <img class="object-cover  object-center rounded-3xl  " alt="hero" src="src/assets/images/Hero.jpg" />
+              <img class="object-cover  object-center rounded-3xl  " alt="hero" src="./src/assets/images/Hero.jpg" />
             </div>
           </div>
         </section>

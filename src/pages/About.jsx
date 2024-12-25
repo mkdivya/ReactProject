@@ -12,9 +12,9 @@ const About = () => {
 
         <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
             <div class="absolute w-full bg-green-600 -z-10 md:h-96 rounded-2xl"></div>
-            
+            {/* Image section */}
             <div class="w-full p-6 bg-green-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
-                <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="src/assets/images/CEO.jpeg" alt="CEO photo" />
+                <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="./src/assets/images/CEO.jpeg" alt="CEO photo" />
                 
                 <div class="mt-2 md:mx-6">
                     <div>
