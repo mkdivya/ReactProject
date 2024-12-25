@@ -1,88 +1,88 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState } from 'react';
+import logo from "../assets/images/logo.png"
 
 const Navbar = () => {
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate();
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const toservices = () => {
-    navigate("/services");
-  };
-
-  const toBlogs=()=>{
-    navigate("/Blogs")
-  }
-  const toContact=()=>{
-    navigate("/Contact")
-  }
-  const toAbout=()=>{
-    navigate("/About")
-  }
-
+  
+    const toggleMenu = () => {
+      setIsMenuOpen(!isMenuOpen);
+    };
+  
   return (
-    <header className="sticky top-0 bg-green-400 text-black m-5 rounded-2xl max-w-full h-20 px-3 z-50">
-      <div className="container mx-auto flex justify-between items-center h-20">
 
-        {/* Brand Logo */}
-        <div className="text-2xl font-bold flex">
-          <img
-            className="max-w-15 max-h-10"
-            src="./src/assets/images/logo.png"
+    
+
+  
+    <nav className="sticky top-0 w-full flex py-6 justify-between items-center  bg-[#fff]">
+      
+        {/* Logo Section */}
+        <div className="flex items-center ml-[10%] ">
+          <img 
+            src="src/assets/images/logo.png"
             alt="Logo"
+            className='w-14 h-12'
+            
           />
-          <span className="mt-2 font-jost">Silo Fortune</span>
-        </div>
+          <span className="  font-bold text-3xl ">Silo Fortune</span>
 
-        {/* Menu Button for Mobile */}
-        <button
+
+{/* new roggle */}
+<button
           onClick={toggleMenu}
           className="text-2xl lg:hidden focus:outline-none text-gray-600"
         >
-          {isMenuOpen ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars"></i>}
+          {isMenuOpen ?  <i class="fa-solid fa-xmark"></i> :<i class="fa-solid fa-bars"></i> }
         </button>
 
+          </div>
+{/* toggle button section for mobile */}
+          
+          
+      
+
         {/* Navigation Links */}
-        <nav
-          className={`${isMenuOpen ? "block" : "hidden"
-            } lg:flex flex-col lg:flex-row lg:space-x-6 absolute lg:relative top-16 lg:top-auto left-0 lg:left-auto w-full lg:w-auto font-medium m-3 p-3 block rounded bg-white lg:bg-transparent lg:items-center`}
-        >
-          <Link
-            to="/home"
-            className="block px-6 py-2 text-xl hover:text-green-600 transition hover:bg-gray-100 rounded p-3 m-6"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="block px-6 py-2 text-xl hover:text-green-600 transition hover:bg-gray-100 rounded p-3 m-6"
-          >
-            About
-          </Link>
-          <Link
-            to="/services"
-            className="block px-6 py-2 text-xl hover:text-green-600 hover:bg-gray-100 rounded p-3 transition m-6"
-          >
-            Services
-          </Link>
-          <Link
-            to="/Blogs"
-            className="block px-6 py-2 text-xl hover:text-green-600 transition hover:bg-gray-100 rounded p-3 m-6"
-          >
-           Blogs
-          </Link>
-          <Link
-            to="/contact"
-            className="block px-6 py-2 text-xl hover:text-green-600 transition hover:bg-gray-100 rounded p-3 m-6"
-          >
-            Contact Us
-          </Link>
-        </nav>
-      </div>
-    </header>
+        <div className=' mr-[10%]  text-xl justify-between font-bold'>
+          <ul className="hidden lg:flex ml-14 space-x-12">
+            <li>
+              <a href="#" className="hover:text-green-400">Home</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-green-400">Services</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-green-400">Contact Us</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-green-400">About</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-green-400 py-2 px-3 border rounded-lg">Sign In</a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-white bg-gradient-to-r from bg-green-300 py-2 px-3 border rounded-lg">Register</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <i className='bx bx-menu xl:hidden block text-5xl cursor-pointer'
+        onClick={()=>setisOpen(!isOpen)}></i>
+
+        <div className={'absolute xl:hidden top:24 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${isOpen ? "opacity-100":"opacity-0"}'}
+        style={{transition:"transform 0.3s ease,opacity 0.3s ease"}}>
+        
+          <li className='list-none w-full text-center p-4 hover:bg-green-600 hover:text-white transition-all cursor-pointer '>Home</li>
+          <li className='list-none w-full text-center p-4 hover:bg-green-600 hover:text-white transition-all cursor-pointer '>Services</li>
+          <li className='list-none w-full text-center p-4 hover:bg-green-600 hover:text-white transition-all cursor-pointer '>Contact Us</li>
+          <li className='list-none w-full text-center p-4 hover:bg-green-600 hover:text-white transition-all cursor-pointer '>About</li>
+          <li className='list-none w-full text-center p-4 hover:bg-green-600 hover:text-white transition-all cursor-pointer '>Sign In</li>
+        
+        </div>
+        
+      
+    
+    </nav>
   );
 };
 
