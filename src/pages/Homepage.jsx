@@ -7,6 +7,7 @@ import Blogs from './Blogs'
 import Carousal from '../components/Carousal'
 import Navbar from '../components/Navbar'
 import Contact from './Contact'
+import About from './About'
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
         <Navbar />
         {/* <Carousal /> */}
         <Hero />
+        <About />
         <Services/>
         <Blogs />
         <Contact />

@@ -4,6 +4,7 @@ import Homepage from '../pages/Homepage';
 import Services from '../pages/Services';
 import Blogs from '../pages/Blogs';
 import Contact from '../pages/Contact';
+import About from '../pages/About';
 
 
 const AppRouter = () => {
@@ -15,6 +16,7 @@ const AppRouter = () => {
                 <Route path='/services' element={<Services/>}/>
                 <Route path='/blogs' element={<Blogs />}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/About' element={<About/>}/>
             </Routes>
         </div>
     </Router>

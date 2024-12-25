@@ -19,9 +19,12 @@ const Navbar = () => {
   const toContact=()=>{
     navigate("/Contact")
   }
+  const toAbout=()=>{
+    navigate("/About")
+  }
 
   return (
-    <header className="sticky top-0 bg-green-400 text-black m-5 rounded-2xl max-w-full h-20 px-3">
+    <header className="sticky top-0 bg-green-400 text-black m-5 rounded-2xl max-w-full h-20 px-3 z-50">
       <div className="container mx-auto flex justify-between items-center h-20">
 
         {/* Brand Logo */}

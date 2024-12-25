@@ -18,7 +18,7 @@ import React from 'react'
                     href="/"
                     aria-label="Category"
                     title="Visit the East"
-                    className="inline-block mb-4 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                    className="inline-block mb-4 text-2xl font-bold leading-5 transition-colors duration-200 text-green-700"
                   >
                     Steps to enhance Dairy Farming with AI
                   </a>
@@ -46,7 +46,7 @@ import React from 'react'
                     href="/"
                     aria-label="Category"
                     title="Simple is better"
-                    className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                    className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 text-green-700"
                   >
                     5 Health Benefits of Dairy Fortune Feed for Cattle
                   </a>
@@ -75,7 +75,7 @@ import React from 'react'
                     href="/"
                     aria-label="Category"
                     title="Film It!"
-                    className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                    className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 text-green-700"
                   >
                     A Comprehensive Guide to the Gau Sampurna App
                   </a>

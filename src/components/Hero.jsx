@@ -1,8 +1,11 @@
 import React from 'react'
 
 const Hero = () => {
+  const handleClick = () => {
+    window.location.href = 'https://youtu.be/aMz0SCl6pBg?si=kzD8sTT4FrX3dE2I';
+  };
   return (
-//  content section
+    //  content section
     <div className='border-gray-500 bg-[#E8F5E9] m-6 rounded-3xl '>
       <div>
         <section className="text-gray-600 body-font">
@@ -16,7 +19,14 @@ const Hero = () => {
               </h1>
               <p className="mb-8 leading-relaxed font-normal text-xl">Just upload photos or a short video,and we'll give you a full health report to keep your cows happy and productive</p>
               <div className="flex justify-center">
-                <button class="inline-flex text-white bg-green-500  py-2 px-6 focus:outline-none hover:bg-green-600 rounded-2xl text-lg border-2 border-black"><i class="fa-regular fa-circle-play py-2 px-2"></i>Watch video</button>
+
+                
+                <button onClick={handleClick} class="inline-flex text-white bg-green-500 py-2 px-6 focus:outline-none hover:bg-green-600 rounded-2xl text-lg border-2 border-black">
+  <i class="fa-regular fa-circle-play py-2 px-2"></i> Watch video
+</button>
+
+
+
 
               </div>
             </div>

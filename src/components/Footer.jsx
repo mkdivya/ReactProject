@@ -5,6 +5,7 @@ const Footer = () => {
 
     <footer class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        {/* Logo and Image section */}
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img
@@ -18,6 +19,7 @@ const Footer = () => {
 
           <p class="mt-1 text-2xl ml-12 text-green-600">Brings out the best</p>
         </div>
+        {/* Content Section */}
         <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-black hover:text-green-600 tracking-wide text-2xl mb-3 py-2">Quick Link</h2>
