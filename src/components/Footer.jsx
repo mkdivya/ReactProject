@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
 
-    <footer class="text-gray-600 body-font">
+    <footer class="text-gray-600 body-font bg-green-400">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         {/* Logo and Image section */}
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
@@ -62,10 +62,10 @@ const Footer = () => {
             <h2 class="title-font font-medium text-black hover:text-green-600 text-3xl mb-3 py-2">Contact Us</h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-green-500 text-sm  "><i class="fa-solid fa-phone  text-green-500 px-2"></i> 1800 419 7848</a>
+                <a class="text-gray-600 hover:text-green-500 text-sm  "><i class="fa-solid fa-phone  text-black px-2"></i> 1800 419 7848</a>
               </li>
               <li>
-                <a class="text-gray-600 hover:text-green-500 text-sm  "><i class="fa-solid fa-envelope text-green-500 py-2 px-2"></i>  support@silofortune.com</a>
+                <a class="text-gray-600 hover:text-green-500 text-sm  "><i class="fa-solid fa-envelope text-black py-2 px-2"></i>  support@silofortune.com</a>
               </li>
               <li>
                 <a class="text-gray-600 hover:text-green-500 text-sm">Beginest co-working space,MG road,Bangalore</a>
