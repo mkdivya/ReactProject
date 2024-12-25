@@ -16,7 +16,7 @@ const Contact = () => {
             <p class="mt-3 text-gray-500 dark:text-gray-400">Chat to our friendly team.</p>
         </div>
 {/* Contact us */}
-        <img class="object-fit w-full h-1/2 mt-10 rounded-lg lg:h-96" src="./src/assets/images/Blog3.jpg" alt="Contact Us image"/>
+        <img class="object-fit w-full h-1/2 mt-10 rounded-lg lg:h-96" src="/images/Blog3.jpg" alt="Contact Us image"/>
         
         <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3 sm:grid-cols-2 ">
             <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">

@@ -8,7 +8,7 @@ import React from 'react'
             <div className="grid gap-10 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
               <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                 <img
-                  src="./src/assets/images/Blog1.png"
+                  src="/images/Blog1.png"
                   className="object-cover w-full h-100"
                   alt=""
                 />
@@ -36,7 +36,7 @@ import React from 'react'
               </div>
               <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                 <img
-                  src="./src/assets/images/Blog1.png"
+                  src="/images/Blog1.png"
                   className="object-cover w-full h-100"
                   alt=""
                 />
@@ -65,7 +65,7 @@ import React from 'react'
               </div>
               <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                 <img
-                  src="./src/assets/images/Blog1.png"
+                  src="/images/Blog1.png"
                   className="object-cover w-full h-100"
                   alt=""
                 />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../assets/images/logo.png"
+
 
 const Navbar = () => {
 
@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="flex items-center ml-[10%] ">
           <img 
-            src="src/assets/images/logo.png"
+            src="/images/logo.png"
             alt="Logo"
             className='w-14 h-12'
             
